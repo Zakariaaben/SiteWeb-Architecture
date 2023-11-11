@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Epilogue:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Tilt+Prism&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+* {
+  margin: 0 0;
+  padding: 0 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+/*BARRE DE NAVIGATION*/
+nav {
+  width: 100%;
+  background-color: #1e1e1e;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 99;
+ 
+}
+nav .logo {
+  color: white !important;
+  font-size: 40px;
+  padding: 0px 40px;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: lighter;
+}
+nav ul {
+  float: right;
+  margin-right: 30px;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+nav ul li a {
+  color: white;
+  font-size: 17px;
+}
+/*FIN DE LA BARRE DE NAVIGATION*/
+
+
+
+/*SECTION HEADER*/
+#header {
+  background-position: center;
+  background-image: url(./Absolute_Reality_v16_a_photo_of_modern_house_in_the_the_golden_1.jpg);
+  position: relative;
+  top: 50px;
+  padding-bottom: 500px;
+  border-radius:30px ;
+  box-shadow: 0px 0px 30px black;
+  
+}
+#header div {
+  width: 70%;
+  height: 40%;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+#header div p,h1{
+    color: rgb(239, 240, 255);
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    margin-bottom: 5px;
+}
+#header div h1{
+    font-size: 40px;
+    transition: 500ms;
+}
+#header div h1:hover{
+    font-size: 40.1px;
+    color:rgb(213, 215, 231) ;
+}
+#header div p{
+    font-size: 20px;
+}
+#header div button{
+    margin-top: 30px;
+    padding: 15px 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: solid rgb(255, 255, 255) 2px;
+    background-color: rgb(238, 239, 250);
+    transition: 500ms;
+    font-size: 20px;
+    box-shadow: 0px 0px 20px black;
+}
+#header div button:hover{
+    background-color: rgb(137, 137, 137);
+    color: rgb(238, 239, 250);
+    border: 	solid black 2px;
+}
+/*FIN DE LA SECTION HEADER*/
+
+
+
+/*SECTION PRÉSENTATION*/
+.presentation {
+    background-color: #c3c4bd;
+    width: 80%;
+    margin: auto;
+    margin-top: 200px;
+    padding: 70px 0px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(129, 129, 129);
+}
+.presentation .quisommesnous{
+   position: relative;
+   bottom: 30px;
+   margin-left: 60px;
+}
+.quisommesnous h1 {
+    font-size: 40px;
+}
+.quisommesnous div{
+    margin-left: 40px;
+    margin-right:150px ;
+    margin-top:30px ;
+}
+.quisommesnous div p{
+    font-size: 29px;
+    text-align: justify;
+    text-justify: distribute;
+    margin-bottom: 30px;
+    color: #1e1e1d;
+}
+.quisommesnous div button{
+    margin-top: 30px;
+    padding: 15px 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: solid rgb(0, 0, 0) 2px;
+    background-color: rgb(238, 239, 250);
+    font-size: 20px;
+    transition: 500ms;
+}
+.quisommesnous div button:hover{
+    background-color: rgb(137, 137, 137);
+    color: rgb(238, 239, 250);
+    
+}
+/*FIN DE LA SÉCTION PRÉSENTATION*/
+
+
+
+/*SÉCTION SERVICES*/
+.sectionservices {
+    background-color:   #1e1e1d;
+    width: 90%;
+    margin: auto;
+    margin-top: 150px;
+    color: #EDEADE;
+    padding: 80px 20px;
+    border-radius: 20px;
+}
+.sectionservices .services{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:50px ;
+}
+.sectionservices .services .service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23%;
+}
+.questionservices{
+    margin-left: 50px;
+    font-size: 37px;
+    transition: 500ms;
+    color: #c3c4bd;
+    margin-bottom:5px ;
+}
+.questionservices:hover{
+    color: #ebebea;
+    font-size: 37.1px;
+}
+.service i{
+   font-size: 30px;
+   margin-top: 0px;
+   padding-top: 0px;
+}
+.service h2 {
+    margin: 25px 0px;
+    text-align: center;
+    font-size: 23px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-justify: distribute;
+}
+
+.service p{
+    color: azure;
+    text-align: justify;
+}
+.service p{
+    font-size:20px ;
+    text-align:center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    word-spacing: 5px;
+}
+/*FIN DE LA SÉCTION SERVICES*/
+
+
+/*SECTION PROJETS*/
+.sectionprojets{
+    background-color: rgb(111, 111, 186);
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    margin-top:200px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+}
+/*FIN DE LA SECTION PROJETS*/
+
+
+
+/*SECTION CONTACT 01*/
+.contacteznous{
+    width: 70%;
+    margin: auto;
+    margin-top: 200px;
+
+    height: 650px;
+    border-radius: 40px;
+    display: flex;
+    transition: 500ms;
+    box-shadow: 0 0 20px black;
+}
+.contacteznous:hover{
+    box-shadow: 0 0 25px  black;
+}
+.formulaire{
+    height:100% ;
+    width: 60%;
+    background-color: #c3c4bd;
+    border-top-left-radius:39px ;
+    border-bottom-left-radius: 39px;
+}
+.formulaire h1{
+    font-size: 30px;
+    color: #171616;
+    margin-top: 60px;
+    text-shadow: none;
+    margin-left: 30px;
+}
+.form{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+}
+.form input,textarea{
+    margin-bottom:20px ;
+    width: 70%;
+    border-radius: 10px;
+    height: 40px;
+    margin-left: 80px;
+    padding-left: 30px;
+    transition: 500ms;
+}
+.form input:focus{
+    background-color: rgb(236, 236, 236);
+    outline: none;
+    color: rgb(0, 0, 0);
+}
+.form textarea:focus{
+    background-color: rgb(236, 236, 236);
+    outline: none;
+    color: rgb(0, 0, 0);
+}
+.form textarea{
+    height: 100px;
+    border: solid black 2px;
+    padding-top:10px ;
+    padding-right: 30px;
+}
+.message{
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+.form button{
+    margin: 	auto;
+    padding: 15px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: solid rgb(111, 111, 111) 2px;
+    background-color: rgb(238, 239, 250);
+    transition: 500ms;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px rgb(116, 116, 116);
+    width: 30%;
+    margin-top:20px ;
+}
+.form button:hover{
+    background-color: rgb(137, 137, 137);
+    color: rgb(238, 239, 250);
+    border: 	solid black 2px;
+}
+
+::placeholder{
+    color: black;
+    opacity: 1;
+}
+
+/*FIN DE LA SECTION CONTACT 01*/
+
+
+
+/*SECTION CONTACT 02*/
+
+.infos{
+    background-color: rgb(40, 36, 36);
+    width: 40%;
+    border-top-right-radius:39px ;
+    border-bottom-right-radius: 39px;
+    display: flex;
+    flex-direction:column ;
+}
+.infos div  {
+    display: flex;
+    margin-top: 110px;
+    margin-left: 40px;
+}
+.infos div i,p,a{
+    color: white;
+    text-decoration: none;
+}
+
+.infos div i{
+    margin-right: 10px;
+}
+
+
+/*FIN DE LA SECTION CONTACT 02*/
+
+/*SECTION FOOTER*/
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 70px;
+    align-items: center;
+    background-color: black;
+    margin-top: 80px;
+}
+footer div{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+}
+footer div i {
+    color:white ;
+}
+/*FIN DE LA SECTION FOOTER*/
